@@ -1,69 +1,79 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simple Front-End Project</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <div class="logo">SimpleDeploy</div>
-        <nav>
-          <a href="#features">Features</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sample Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-      <section class="hero">
-        <div class="hero-text">
-          <p class="info-pill">Easy, responsive, modern UI</p>
-          <h1>Build a clean website with HTML and CSS.</h1>
-          <p>
-            This sample front-end project includes a polished landing page layout, reusable design
-            elements, and responsive behavior for desktop and mobile screens.
-          </p>
-          <a class="button-primary" href="#about">Explore the project</a>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">MyWebsite</h1>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-          <div class="info-bar">
-            <div class="info-pill">Fast setup</div>
-            <div class="info-pill">No JavaScript needed</div>
-            <div class="info-pill">Responsive design</div>
-          </div>
-        </div>
-
-        <div class="hero-visual">
-          <div class="illustration">
-            <h2>Ready to launch</h2>
-            <p>Use this template as a starting point for your next static website or landing page.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="features" class="card-grid">
-        <article class="card">
-          <h3>Clean design</h3>
-          <p>Simple visual styles keep the page readable and attractive without overwhelming visitors.</p>
-        </article>
-        <article class="card">
-          <h3>Responsive layout</h3>
-          <p>The layout adapts smoothly across both large screens and mobile devices.</p>
-        </article>
-        <article class="card">
-          <h3>Modern typography</h3>
-          <p>Readable text sizes, spacing, and accent colors help the content stand out clearly.</p>
-        </article>
-        <article class="card">
-          <h3>Easy customization</h3>
-          <p>Update colors, spacing, or content quickly to match your own branding.</p>
-        </article>
-      </section>
-
-      <footer id="contact">
-        Built with HTML and CSS — open <strong>index.html</strong> in your browser to view it.
-      </footer>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Welcome to My Website</h2>
+      <p>We create beautiful and responsive websites.</p>
+      <a href="#" class="btn">Get Started</a>
     </div>
-  </body>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Us</h2>
+    <p>
+      We are a web development company specializing in HTML, CSS,
+      JavaScript, and modern frameworks.
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-box">
+      <div class="card">
+        <h3>Web Design</h3>
+        <p>Modern and user-friendly designs.</p>
+      </div>
+      <div class="card">
+        <h3>Development</h3>
+        <p>Responsive and fast websites.</p>
+      </div>
+      <div class="card">
+        <h3>SEO</h3>
+        <p>Improve your online visibility.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 MyWebsite. All Rights Reserved.</p>
+  </footer>
+
+</body>
 </html>
